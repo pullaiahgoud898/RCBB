@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<title>website1</title>
+	<link rel="stylesheet"  href="CSS/styles1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet"  href="fontawesome/fonts/css/all.css">
+	<style>
+		body
+{
+	
+	background:url('../IMAGES/back1.jpg') ;
+    font-family:'Arial',sans-serif;
+}
+#main-header
+{
+	 
+	background:white url('../IMAGES/bar.jpg') no-repeat scroll center;
+	background-size:cover;
+	padding:23px;
+	text-align:right;
+	margin:0px;
+	
+}
+#main-header h1
+{
+	margin: 0px;
+	color:white;
+	font-size:40px;
+}
+#main-nav
+{
+	background:linear-gradient(45deg,red,green,orange);
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+#main-nav a
+{
+	margin: 0px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	display:inline-block;
+}
+#main-nav a.active
+{
+	background:linear-gradient(45deg,grey,darkblue);
+	border-radius:10px;
+	color:white;
+}
+#main-nav a.active:hover
+{
+	background:linear-gradient(45deg,orange,green,cyan);
+	border-radius: 10px;
+	box-shadow: 0 0 10px yellow;
+}
+.fa
+{
+	padding-right:5px;
+}
+#main-nav1
+{
+	background:linear-gradient(45deg,orange,skyblue,violet);
+	padding: 10px;
+	display: flex;
+	flex-direction:row;
+	
+	border-radius: 10px;
+	box-shadow: 0 0 10px red;
+}
+#main-nav1 a
+{
+
+	margin: 0px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	display:inline-block;
+	text-align: center;
+}
+	</style>
+</head>
+<body>
+		<header id="main-header">
+			<h1 class="animate__animated animate__zoomIn">RCB BAR & CAFE</h1>
+		</header>
+	<nav id="main-nav" class="animate__animated animate__flipInX">
+		<a href="#Home" target="_blank" class="active"><i class="fa fa-home"></i>Home</a>
+		<a href="#News" target="_blank" class="active"><i id="News" class="fa fa-newspaper"></i>News</a>
+		<a href="#Gallery" target="_blank" class="active"><i id="Gallery" class="fa fa-images"></i>Gallery</a>
+		<a href="About" target="_blank" class="active"><i id="About" class="fa fa-id-card"></i>About</a>
+		<a href="Contact" target="_blank" class="active"><i id="Contact" class="fa fa-envelope"></i>Contact Us</a>
+	</nav>
+</body>
+</html>
